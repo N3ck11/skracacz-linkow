@@ -11,7 +11,7 @@ public class LinkDto {
     String id; String email; String targetUrl; LocalDate expirationDate; int i;
 
 
-    public LinkDto(String id, String email, String targetUrl, LocalDate expirationDate, int i) {
+    public LinkDto(String id, String email, int visits, String targetUrl, LocalDate expirationDate, int i) {
         this.id = id;
         this.email = email;
         this.targetUrl = targetUrl;
