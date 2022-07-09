@@ -1,8 +1,6 @@
 package dev.organisation2.linkshortener.controller;
 
 
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-
 import java.time.LocalDate;
 
 public class LinkDto {
