@@ -8,8 +8,40 @@ import java.time.LocalDate;
 public class LinkDto {
 
 
-    String id; String email; String targetUrl; LocalDate expirationDate; int i;
+    private String id;
+    private String email;
+    private String targetUrl;
+    private LocalDate expirationDate;
+    int i;
 
+
+    public String getId() {
+        return id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getTargetUrl() {
+        return targetUrl;
+    }
+
+    public void setI(int i) {
+        this.i = i;
+    }
+
+    public LocalDate getExpirationDate() {
+        return expirationDate;
+    }
+
+    public int getI() {
+        return i;
+    }
+
+    public void setTargetUrl(String targetUrl) {
+        this.targetUrl = targetUrl;
+    }
 
     public LinkDto(String id, String email, int visits, String targetUrl, LocalDate expirationDate, int i) {
         this.id = id;

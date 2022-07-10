@@ -23,4 +23,34 @@ import java.time.LocalDate;
                     0
             );
         }
+
+        @Override
+        public String id() {
+            return id;
+        }
+
+        @Override
+        public String email() {
+            return email;
+        }
+
+        @Override
+        public int visits() {
+            return visits;
+        }
+
+        @Override
+        public String targetUrl() {
+            return targetUrl;
+        }
+
+        @Override
+        public LocalDate expirationDate() {
+            return expirationDate;
+        }
+
+        @Override
+        public int i() {
+            return i;
+        }
     }
